@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
 
-from authenticatio import views
+from authentication import views
 from authentication.views import RegistrationView
 
 
